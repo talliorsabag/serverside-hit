@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "mongoose-sequence": "^5.3.1",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.20",
+    "npm": "^9.4.2",
+    "serverless-http": "^3.1.1",
+    "start": "^5.1.0"
+  },
+  "scripts": {
+    "start":"nodemon server.js",
+    "build": "netlify deploy --prod"
+  },
+  "name": "serversideasync-hit",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "keywords": [],
+  "description": ""
+}
